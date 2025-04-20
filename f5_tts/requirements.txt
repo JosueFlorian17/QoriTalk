@@ -1,0 +1,29 @@
+# requirements.txt para F5-TTS (sugerido)
+
+# PyTorch y torchaudio (ajusta a tu versión de CUDA y a la versión que desees usar)
+torch==2.0.0
+torchaudio==2.0.0
+
+# Librerías típicas para procesamiento de audio
+librosa==0.9.2
+soundfile==0.11.0
+
+# Manejo de entornos, utilidades y otras dependencias frecuentemente necesarias
+numpy==1.23.5
+scipy==1.10.1
+matplotlib==3.7.1
+tqdm==4.65.0
+
+# Opcional: sox en Python (para convertir, reproducir, etc.)
+# Ten en cuenta que requiere el paquete 'sox' instalado en el sistema.
+sox==1.4.1
+
+# Dependencias potenciales para normalización de texto o utilidades extra
+# phonemizer==3.2
+# inflect==6.0.4
+# pydub==0.25.1
+
+# Si el proyecto usa Jupyter para demos:
+# jupyterlab==3.6.2
+
+# (Agrega aquí otras dependencias que aparezcan en tu código)
