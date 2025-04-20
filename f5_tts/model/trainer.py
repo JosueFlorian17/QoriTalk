@@ -14,9 +14,9 @@ from torch.optim.lr_scheduler import LinearLR, SequentialLR
 from torch.utils.data import DataLoader, Dataset, SequentialSampler
 from tqdm import tqdm
 
-from f5_tts.model import CFM
-from f5_tts.model.dataset import DynamicBatchSampler, collate_fn
-from f5_tts.model.utils import default, exists
+from model import CFM
+from model.dataset import DynamicBatchSampler, collate_fn
+from model.utils import default, exists
 
 # trainer
 
