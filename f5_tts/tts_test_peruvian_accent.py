@@ -8,14 +8,14 @@ import torchaudio
 import soundfile as sf
 import numpy as np
 import datetime
-from f5_tts.model import DiT
-from f5_tts.infer.utils_infer import (
+from model import DiT
+from infer.utils_infer import (
     load_vocoder,
     load_model,
     preprocess_ref_audio_text,
     infer_process
 )
-from f5_tts.peruvian_voice_samples.transcribe import get_transcription
+from peruvian_voice_samples.transcribe import get_transcription
 
 
 
