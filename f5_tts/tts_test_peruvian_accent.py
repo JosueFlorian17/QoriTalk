@@ -1,20 +1,21 @@
 import sys
 import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '')))
-
+import requests
+from tqdm import tqdm
 import torch
 import torchaudio
 import soundfile as sf
 import numpy as np
 import datetime
-from model import DiT
-from infer.utils_infer import (
+from f5_tts.model import DiT
+from f5_tts.infer.utils_infer import (
     load_vocoder,
     load_model,
     preprocess_ref_audio_text,
     infer_process
 )
-from peruvian_voice_samples.transcribe import get_transcription
+from f5_tts.peruvian_voice_samples.transcribe import get_transcription
 
 
 
@@ -26,6 +27,30 @@ CKPT_FILE = os.path.join(BASE_DIR, "model_1200000.safetensors")
 VOCAB_FILE = os.path.join(BASE_DIR,  "infer", "examples", "vocab.txt")  
 REF_AUDIO = os.path.join(BASE_DIR, "peruvian_voice_samples", "ref_audio_voice_8.wav")
 TRANSCRIPT_FILE = os.path.join(BASE_DIR, "peruvian_voice_samples", "transcriptions.txt")
+CKPT_URL = "https://huggingface.co/jpgallegoar/F5-Spanish/resolve/main/model_1200000.safetensors"
+
+def download_file(url, dest_path):
+    response = requests.get(url, stream=True)
+    response.raise_for_status()
+    total = int(response.headers.get('content-length', 0))
+    
+    with open(dest_path, 'wb') as file, tqdm(
+        desc=f"Descargando {os.path.basename(dest_path)}",
+        total=total,
+        unit='B',
+        unit_scale=True,
+        unit_divisor=1024,
+    ) as bar:
+        for chunk in response.iter_content(chunk_size=8192):
+            if chunk:
+                file.write(chunk)
+                bar.update(len(chunk))
+
+if not os.path.exists(CKPT_FILE):
+    print(f"Modelo no encontrado. Descargando a: {CKPT_FILE}")
+    download_file(CKPT_URL, CKPT_FILE)
+else:
+    print(f"Modelo ya existe en: {CKPT_FILE}")
 
 now = datetime.datetime.now()
 miliseconds = now.microsecond // 1000
