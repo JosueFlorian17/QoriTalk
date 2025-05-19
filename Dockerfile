@@ -19,7 +19,7 @@ WORKDIR /workspace
 
 RUN git clone https://github.com/JosueFlorian17/QoriTalk.git
 
-WORKDIR /workspace/QoriTalk}
+WORKDIR /workspace/QoriTalk
 
 RUN pip install --upgrade pip && \
     pip install torch torchaudio transformers gradio soundfile numpy librosa scipy tqdm click \
