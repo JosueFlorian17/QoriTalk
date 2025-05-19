@@ -5,7 +5,7 @@ USER root
 ARG DEBIAN_FRONTEND=noninteractive
 ENV SHELL=/bin/bash
 
-LABEL maintainer="TuNombre <josueflorian12317@gmail.com>"
+LABEL maintainer="JosueFlorian <josueflorian12317@gmail.com>"
 LABEL description="Spanish-F5 (fine-tuned F5-TTS with Peruvian accent)"
 
 RUN apt-get update && apt-get install -y \
@@ -19,8 +19,7 @@ WORKDIR /workspace
 
 RUN git clone https://github.com/JosueFlorian17/QoriTalk.git
 
-WORKDIR /workspace/QoriTalk
-COPY model_1200000.safetensors /workspace/QoriTalk/
+WORKDIR /workspace/QoriTalk}
 
 RUN pip install --upgrade pip && \
     pip install torch torchaudio transformers gradio soundfile numpy librosa scipy tqdm click \
