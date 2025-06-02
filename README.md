@@ -31,7 +31,7 @@ docker pull osheny/qoritalk:0.0.1
 
 2. Iniciar el contenedor con el puerto 8000 expuesto:
 ```
-docker run -it -p 8000:8000 josueflorian/qoritalk:latest
+docker run -it -p 8000:8000 osheny/qoritalk:0.0.1
 ```
 
 > Mediante este comando, el usuario activa el API de Qoritalk, pudiendo realizar solicitudes de síntesis de voz con el comando CURL adjunto
@@ -71,13 +71,17 @@ Para comenzar a generar archivos de audio y experimentar con el modelo
 ---
 ## Resultados de pruebas de Benchmarking
 
-| Característica                  | Descripción                                                                 |
-|-------------------------------|-----------------------------------------------------------------------------|
-|     |                                              |
-|        |                                                   |
-|         |           |
-|       |                                            |
-|            |                            |
+## Resultados de pruebas de Benchmarking
+
+| Prueba                          | Frase de ejemplo                                                                                   | Audio de ejemplo                        |
+|--------------------------------|--------------------------------------------------------------------------------------------------|---------------------------------------|
+| Naturalidad de la voz           | “Amaranta sintió que su corazón latía con la fuerza de mil tambores.” (de *Cien años de soledad*) | [Audio](ruta-o-link-al-audio1.wav)    |
+| Precisión en frases complejas   | “Y aunque la tierra era dura, la pachamama siempre nos cobijaba con su manto sagrado.”             | [Audio](ruta-o-link-al-audio2.wav)    |
+| Robustez en contextos médicos   | “Por favor, indique si siente dolor en el pecho, dificultad para respirar o mareos.”              | [Audio](ruta-o-link-al-audio3.wav)    |
+| Aplicación en tutoría académica | “Para resolver la ecuación cuadrática, debemos aplicar la fórmula general que involucra la raíz.”| [Audio](ruta-o-link-al-audio4.wav)    |
+
+---
+
 
 
 ---
