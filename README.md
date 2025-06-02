@@ -89,7 +89,7 @@ Esto generará un archivo **output1.wav** en la carpeta desde donde se ejecute e
   Parámetro obligatorio que define el texto que se desea convertir a audio.
 
 - **-d "voice_number=..."**  
-  Especifica qué voz usar. Por defecto puedes definir valores como `1` (voz masculina), `2` (voz femenina), etc., según lo definido en tu sistema.
+  Especifica qué voz usar. Por defecto puedes definir valores en el rango de 1 a 8, cada una corresponde a un tipo de voz visto en las **demostraciones**.
 
 - **-o output1.wav**  
   Define el nombre del archivo de salida donde se guardará el audio generado por el API.
