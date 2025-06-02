@@ -69,8 +69,12 @@ python tts_test_peruvian_accent.py
 Para comenzar a generar archivos de audio y experimentar con el modelo
 
 ---
-## Resultados de pruebas de Benchmarking
-
+## Realizando la llamada al API:
+| El API de Qoritalk permite generar audios al ser llamado con un comando **curl** con el formato siguiente
+```
+curl -X POST http://localhost:8000/speak -d "text=Hola, estamos escribiendo desde el API usando GPU con la voz número uno" -d "voice_number=1" -o output1.wav
+```
+Esto generará el archivo **.wav** en la carpeta donde se haya corrido el comando, listo para usarse
 ## Resultados de pruebas de Benchmarking
 
 | Prueba                          | Frase de ejemplo                                                                                   | Audio de ejemplo                        |
