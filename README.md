@@ -70,11 +70,35 @@ Para comenzar a generar archivos de audio y experimentar con el modelo
 
 ---
 ## Realizando la llamada al API:
-| El API de Qoritalk permite generar audios al ser llamado con un comando **curl** con el formato siguiente
+> El API de Qoritalk permite generar audios al ser llamado con un comando **curl** con el formato siguiente
 ```
 curl -X POST http://localhost:8000/speak -d "text=Hola, estamos escribiendo desde el API usando GPU con la voz número uno" -d "voice_number=1" -o output1.wav
 ```
-Esto generará el archivo **.wav** en la carpeta donde se haya corrido el comando, listo para usarse
+
+Esto generará un archivo **output1.wav** en la carpeta desde donde se ejecute el comando, listo para reproducirse.
+
+### Explicación de parámetros:
+
+- **http://localhost:8000/speak**  
+  Dirección local del endpoint `/speak`, habilitado al ejecutar el contenedor de QoriTalk en el puerto 8000.
+
+- **-X POST**  
+  Indica que se trata de una solicitud POST, usada para enviar datos al servidor.
+
+- **-d "text=..."**  
+  Parámetro obligatorio que define el texto que se desea convertir a audio.
+
+- **-d "voice_number=..."**  
+  Especifica qué voz usar. Por defecto puedes definir valores como `1` (voz masculina), `2` (voz femenina), etc., según lo definido en tu sistema.
+
+- **-o output1.wav**  
+  Define el nombre del archivo de salida donde se guardará el audio generado por el API.
+
+---
+
+Puedes automatizar pruebas o integrar esta llamada fácilmente en scripts o aplicaciones externas para aprovechar QoriTalk como un motor TTS con acento peruano.
+
+
 ## Resultados de pruebas de Benchmarking
 
 | Prueba                          | Frase de ejemplo                                                                                   | Audio de ejemplo                        |
