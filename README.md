@@ -103,10 +103,11 @@ Puedes automatizar pruebas o integrar esta llamada fácilmente en scripts o apli
 
 | Prueba                          | Frase de ejemplo                                                                                   | Audio de ejemplo                        |
 |--------------------------------|--------------------------------------------------------------------------------------------------|---------------------------------------|
-| Naturalidad de la voz           | “Amaranta sintió que su corazón latía con la fuerza de mil tambores.” (de *Cien años de soledad*) | [Audio](ruta-o-link-al-audio1.wav)    |
-| Precisión en frases complejas   | “Y aunque la tierra era dura, la pachamama siempre nos cobijaba con su manto sagrado.”             | [Audio](ruta-o-link-al-audio2.wav)    |
-| Robustez en contextos médicos   | “Por favor, indique si siente dolor en el pecho, dificultad para respirar o mareos.”              | [Audio](ruta-o-link-al-audio3.wav)    |
-| Aplicación en tutoría académica | “Para resolver la ecuación cuadrática, debemos aplicar la fórmula general que involucra la raíz.”| [Audio](ruta-o-link-al-audio4.wav)    |
+| Cita narrativa           | “Nada me impresiona más que los hombres que lloran. Nuestra cobardía nos ha hecho considerar el llanto como cosa de mujercitas. Cuando solo lloran los valientes” (de *Solo lloran los valientes* de **Julio ramón Ribeyro**) | [Audio](ruta-o-link-al-audio1.wav)    |
+| Precisión en frases largas   | “El gran error de la naturaleza humana es adaptarse. La verdadera felicidad está construida por un perpetuo estado de iniciación, de entusiasmo constante” (de **Julio ramón Ribeyro**)            | [Audio](ruta-o-link-al-audio2.wav)    |
+| Manejo de pausas   | “El ser, absolutamente inexpresivo no existe, es un ente de pura abstracción. Si existiera sería la negación de toda facultad estética, de toda condición humana”    (de *Trilce* de **César Vallejo**)            | [Audio](ruta-o-link-al-audio3.wav)    |
+| Frase corta | “El deber no es el éxito, es la lucha” (de *Tradiciones Peruanas* de **Ricardo Palma**)| [Audio](ruta-o-link-al-audio4.wav)    |
+| Indicaciones médicas | “Por favor, indique si siente dolor en el pecho, dificultad para respirar o mareos.”| [Audio](ruta-o-link-al-audio4.wav)    |
 
 ---
 
