@@ -72,7 +72,7 @@ Para comenzar a generar archivos de audio y experimentar con el modelo
 ## Realizando la llamada al API:
 > El API de Qoritalk permite generar audios al ser llamado con un comando **curl** con el formato siguiente
 ```
-curl -X POST http://localhost:8000/speak -d "text=Hola, estamos escribiendo desde el API usando GPU con la voz número uno" -d "voice_number=1" -o output1.wav
+curl -X POST http://localhost:8000/speak -H "Content-Type: application/x-www-form-urlencoded; charset=UTF-8" --data-urlencode "text=" --data-urlencode "voice_number=8" -o outputlargo.wav
 ```
 
 Esto generará un archivo **output1.wav** en la carpeta desde donde se ejecute el comando, listo para reproducirse.
