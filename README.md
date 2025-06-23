@@ -103,11 +103,11 @@ Puedes automatizar pruebas o integrar esta llamada fácilmente en scripts o apli
 
 | Prueba                          | Frase de ejemplo                                                                                   | Audio de ejemplo                        |
 |--------------------------------|--------------------------------------------------------------------------------------------------|---------------------------------------|
-| Cita narrativa           | “Nada me impresiona más que los hombres que lloran. Nuestra cobardía nos ha hecho considerar el llanto como cosa de mujercitas. Cuando solo lloran los valientes” (de *Solo lloran los valientes* de **Julio ramón Ribeyro**) | [Audio](https://github.com/JosueFlorian17/QoriTalk/blob/main/voice_demonstration/voice1.wav)    |
-| Precisión en frases largas   | “El gran error de la naturaleza humana es adaptarse. La verdadera felicidad está construida por un perpetuo estado de iniciación, de entusiasmo constante” (de **Julio ramón Ribeyro**)            | [Audio](https://github.com/JosueFlorian17/QoriTalk/blob/main/voice_demonstration/voice2.wav)    |
-| Manejo de pausas   | “El ser, absolutamente inexpresivo no existe, es un ente de pura abstracción. Si existiera sería la negación de toda facultad estética, de toda condición humana”    (de *Trilce* de **César Vallejo**)            | [Audio](https://github.com/JosueFlorian17/QoriTalk/blob/main/voice_demonstration/voice4.wav)    |
-| Frase corta | “El deber no es el éxito, es la lucha” (de *Tradiciones Peruanas* de **Ricardo Palma**)| [Audio](https://github.com/JosueFlorian17/QoriTalk/blob/main/voice_demonstration/voice6.wav)    |
-| Indicaciones médicas | “Por favor, indique si siente dolor en el pecho, dificultad para respirar o mareos.”| [Audio](https://github.com/JosueFlorian17/QoriTalk/blob/main/voice_demonstration/voice7.wav)    |
+| Cita narrativa           | “Es necesario dotar a todo niño de una casa. Un lugar que, aún perdido, pueda más tarde servirle de refugio y recorrer con la imaginación buscando su alcoba, sus juegos, sus fantasmas”. (de **Julio ramón Ribeyro**) | [Audio](https://github.com/JosueFlorian17/QoriTalk/blob/main/voice_demonstration/voice1.wav)    |
+| Precisión en frases largas   | “El gran error de la naturaleza humana es adaptarse. La verdadera felicidad está construida por un perpetuo estado de iniciación, de entusiasmo constante”. (de **Julio ramón Ribeyro**)            | [Audio](https://github.com/JosueFlorian17/QoriTalk/blob/main/voice_demonstration/voice2.wav)    |
+| Manejo de pausas   | “El ser, absolutamente inexpresivo no existe, es un ente de pura abstracción. Si existiera sería la negación de toda facultad estética, de toda condición humana”.    (de *Trilce* de **César Vallejo**)            | [Audio](https://github.com/JosueFlorian17/QoriTalk/blob/main/voice_demonstration/voice4.wav)    |
+| Frase corta | “El deber no es el éxito, es la lucha”. (de *Tradiciones Peruanas* de **Ricardo Palma**)| [Audio](https://github.com/JosueFlorian17/QoriTalk/blob/main/voice_demonstration/voice6.wav)    |
+| Indicaciones médicas | “Por favor, indique si siente dolor en el pecho, dificultad para respirar o mareos”.| [Audio](https://github.com/JosueFlorian17/QoriTalk/blob/main/voice_demonstration/voice7.wav)    |
 
 ---
 
